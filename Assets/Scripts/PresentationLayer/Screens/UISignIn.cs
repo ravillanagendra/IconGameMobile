@@ -16,7 +16,6 @@ namespace PRESENTATION
 
         public Text txt_ErrorMsg;
 
-
         // Start is called before the first frame update
         void Start()
         {
@@ -91,6 +90,5 @@ namespace PRESENTATION
             }
         
         }
-
     }
 }

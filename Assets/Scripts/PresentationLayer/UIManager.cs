@@ -54,7 +54,7 @@ public class UIManager : MonoBehaviour
 
     private void Awake()
     {
-        Cursor.SetCursor(CursorTexture, Vector2.zero, CursorMode.ForceSoftware);
+        //Cursor.SetCursor(CursorTexture, Vector2.zero, CursorMode.ForceSoftware);
     }
     // Start is called before the first frame update
     void Start()
@@ -117,9 +117,9 @@ public class UIManager : MonoBehaviour
 
     public void OnMouseHoverOnCircle(bool isHover)
     {
-      if(isHover)
-        Cursor.SetCursor(HandCursorTexture, Vector2.zero, CursorMode.ForceSoftware);
-      else
-        Cursor.SetCursor(CursorTexture, Vector2.zero, CursorMode.ForceSoftware);
+      //if(isHover)
+       // Cursor.SetCursor(HandCursorTexture, Vector2.zero, CursorMode.ForceSoftware);
+     // else
+        //Cursor.SetCursor(CursorTexture, Vector2.zero, CursorMode.ForceSoftware);
     }
 }
