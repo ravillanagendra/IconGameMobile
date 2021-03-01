@@ -24,6 +24,7 @@ namespace PRESENTATION
 
             EventManager.Listen<SignInStatusEvent>(OnSignInStatuEvent);
         }
+
         private bool ValidateInputFields()
         {
             if (txt_ErrorMsg != null)
